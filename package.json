@@ -1,10 +1,17 @@
 {
-  "name": "tutsplus",
+  "name": "bookshelf-app",
   "version": "1.0.0",
-  "description": "tutsPlus-Getting started with Backbone",
-  "main": "index.js",
+  "description": "bookshelf-app - Getting started with Backbone",
+  "engines": {
+    "node": "6.9.1"
+  },
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edmelkoyev/bookshelf-app"
   },
   "keywords": [
     "backbone",
